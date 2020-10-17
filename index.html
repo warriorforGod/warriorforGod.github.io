@@ -1,7 +1,14 @@
+---
+layout: default
+title: Home
+---
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World.  This is a revision</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <head>
+	<meta charset="utf-8">
+	<title>{{ page.title }}</title>
+  </head>
+  <body>
+	<h1>{{ "Hello World.  This is a revision" | downcase }}</h1>
+  </body>
 </html>
